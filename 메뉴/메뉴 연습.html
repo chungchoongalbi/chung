@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>식당 메뉴</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>청춘갈비살</h1>
+    
+    <div>
+        <label for="language-select">언어 선택:</label>
+        <select id="language-select" onchange="changeLanguage()">
+            <option value="ko">한국어</option>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+        </select>
+    </div>
+    
+    <div id="menu">
+        <h2 data-ko="소생LA갈비구이" data-en="Kimchi Stew" data-es="Estofado de Kimchi">소생LA갈비구이</h2>
+        <img src="소생LA갈비구이.jpg" alt="소생LA갈비구이 사진" width="300" height="200">
+
+        <h2 data-ko="소생갈비살" data-en="Bulgogi" data-es="Bulgogi">소생갈비살</h2>
+        <img src="소생갈비살.jpg" alt="소생갈비살 사진" width="300" height="200">
+        <h2 data-ko="소양념갈비살" data-en="Bulgogi" data-es="Bulgogi">소양념갈비살</h2> 
+        <img src="소양념갈비살.jpg" alt="소양념갈비살 사진" width="300" height="200">   
+        <h2 data-ko="수제돼지갈비" data-en="Bulgogi" data-es="Bulgogi">수제돼지갈비</h2>
+        <img src="수제돼지갈비.jpg" alt="수제돼지갈비 사진" width="300" height="200">
+        <h2 data-ko="삼겹살" data-en="Bulgogi" data-es="Bulgogi">삼겹살</h2>
+        <img src="삼겹살.jpg" alt="삼겹살 사진" width="300" height="200">
+        <h2 data-ko="돼지껍데기" data-en="Bulgogi" data-es="Bulgogi">돼지껍데기</h2>
+        <img src="돼지 껍데기.jpg" alt="돼지 껍데기 사진" width="300" height="200">
+        <h2 data-ko="더덕구이" data-en="Bulgogi" data-es="Bulgogi">더덕구이</h2>
+        <img src="더덕구이.jpg" alt="더덕구이 사진" width="300" height="200">
+
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
